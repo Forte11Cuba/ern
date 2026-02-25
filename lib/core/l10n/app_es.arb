@@ -1,0 +1,361 @@
+{
+  "@@locale": "es",
+  "appName": "Escala de Riesgo Neurocognitivo",
+  "scaleFormalName": "Escala predictiva de Trastorno Neurocognitivo Leve debido a la Enfermedad de Alzheimer",
+  "dashboard": "Resumen",
+  "patients": "Pacientes",
+  "analytics": "Analíticas",
+  "reminders": "Recordatorios",
+  "exportData": "Exportar datos",
+  "settings": "Ajustes",
+  "about": "Acerca de",
+  "newAssessment": "Nueva evaluación",
+  "editAssessment": "Editar evaluación",
+  "saveAssessment": "Guardar evaluación",
+  "saveChanges": "Guardar cambios",
+  "result": "Resultado",
+  "history": "Historial",
+  "search": "Buscar",
+  "filters": "Filtros",
+  "clearFilters": "Limpiar",
+  "cancel": "Cancelar",
+  "confirm": "Confirmar",
+  "close": "Cerrar",
+  "error": "Error",
+  "loading": "Cargando...",
+
+  "totalPatients": "Pacientes",
+  "totalAssessments": "Evaluaciones",
+  "highRisk": "Alto riesgo",
+  "lowRisk": "Bajo riesgo",
+  "score": "Score",
+  "category": "Categoría",
+  "version": "Versión",
+  "average": "Promedio",
+
+  "quickAccess": "Acceso rápido",
+  "patientsSubtitle": "Ver lista, buscar o registrar pacientes",
+  "analyticsSubtitle": "Distribución, tendencias y correlaciones",
+  "remindersSubtitle": "Reevaluaciones pendientes y vencidas",
+  "exportSubtitle": "CSV y PDF con filtros para investigación",
+  "aboutSubtitle": "Escala, evidencia científica y créditos",
+
+  "patientCode": "Código del paciente",
+  "patientName": "Nombre / Iniciales",
+  "age": "Edad",
+  "sex": "Sexo",
+  "male": "Masculino",
+  "female": "Femenino",
+  "birthDate": "Fecha de nacimiento",
+  "medicalRecord": "Historia clínica",
+  "notes": "Notas",
+  "clinicalNotes": "Notas clínicas",
+  "required": "Requerido",
+  "invalidAge": "Edad inválida",
+  "newPatient": "Nuevo paciente",
+  "editPatient": "Editar paciente",
+  "registerPatient": "Registrar paciente",
+  "patientUpdated": "Paciente actualizado",
+  "patientRegistered": "Paciente registrado",
+  "noPatients": "No hay pacientes registrados",
+  "noResults": "Sin resultados",
+  "searchHint": "Buscar por código, nombre o historia...",
+
+  "patientData": "Datos del paciente",
+  "assessments": "Evaluaciones",
+  "noAssessments": "Sin evaluaciones aún",
+
+  "hypertension": "Hipertensión arterial",
+  "lowCompetence": "Bajo nivel de competencias",
+  "lowEducation": "Bajo nivel de escolaridad",
+  "covid": "COVID-19",
+  "obesity": "Obesidad",
+  "diabetes": "Diabetes mellitus",
+  "weightLoss": "Pérdida de peso",
+  "inactivity": "Inactividad física",
+  "smoking": "Tabaquismo",
+  "pts": "pts",
+  "yes": "Sí",
+  "no": "No",
+
+  "riskFactors": "Factores de riesgo",
+  "recommendation": "Recomendación",
+  "highRiskRecommendation": "Paciente clasificado como ALTO RIESGO de deterioro neurocognitivo.\nSe recomienda:\n\n\u2022 Evaluación neuropsicológica formal\n\u2022 Control estricto de factores cardiovasculares\n\u2022 Intervención sobre estilo de vida\n\u2022 Seguimiento periódico",
+  "lowRiskRecommendation": "Paciente clasificado como BAJO RIESGO.\nSe recomienda:\n\n\u2022 Mantener hábitos saludables\n\u2022 Reevaluación periódica",
+
+  "pdf": "PDF",
+  "share": "Compartir",
+  "edit": "Editar",
+  "pdfAvailableSoon": "PDF disponible en próxima versión",
+
+  "assessmentDetail": "Detalle evaluación",
+  "versionHistory": "Historial de versiones",
+  "currentVersion": "actual",
+  "previousVersions": "Versiones anteriores",
+  "changesVsCurrent": "Cambios respecto a versión actual:",
+  "factorsInVersion": "Factores en esta versión:",
+  "noVersions": "No hay versiones anteriores",
+
+  "compare": "Comparar",
+  "comparison": "Comparativa",
+  "compareEvaluations": "Comparar evaluaciones",
+  "selectTwoAssessments": "Selecciona 2 evaluaciones",
+  "previous": "Anterior",
+  "recent": "Reciente",
+  "factorComparison": "Comparativa de factores",
+  "summary": "Resumen",
+  "previousAssessment": "Evaluación anterior",
+  "recentAssessment": "Evaluación reciente",
+  "scoreDifference": "Diferencia de score",
+  "categoryChange": "Cambio de categoría",
+  "noChange": "Sin cambio",
+  "modifiedFactors": "Factores modificados",
+
+  "evolutionChart": "Evolución del score",
+  "cutoff": "Corte",
+  "date": "Fecha",
+  "datePrefix": "Fecha: {date}",
+  "@datePrefix": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+
+  "riskCategory": "Categoría de riesgo",
+  "all": "Todos",
+  "dateRange": "Rango de fechas",
+  "from": "Desde",
+  "to": "Hasta",
+  "activeFactors": "Factores presentes",
+  "noResultsWithFilters": "Sin resultados con los filtros aplicados",
+
+  "pending": "Pendientes",
+  "overdue": "Vencidos",
+  "noPendingReminders": "No hay recordatorios pendientes",
+  "noOverdueReminders": "No hay recordatorios vencidos",
+  "reminderCompleted": "Recordatorio completado",
+  "markCompleted": "Marcar completado",
+  "scheduledFor": "Programada",
+  "overdueDays": "Vencida hace {days} días",
+  "@overdueDays": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "inDays": "En {days} días ({months} meses)",
+  "@inDays": {
+    "placeholders": {
+      "days": {"type": "int"},
+      "months": {"type": "int"}
+    }
+  },
+
+  "exportFilters": "Filtros de exportación",
+  "exportFormat": "Formato de exportación",
+  "exportCsv": "Exportar CSV",
+  "csvSubtitle": "Archivo de texto separado por comas",
+  "statisticsPdf": "PDF de estadísticas",
+  "statisticsPdfSubtitle": "Reporte agregado con distribución y frecuencias",
+  "clearDates": "Limpiar fechas",
+
+  "scoreDistribution": "Distribución de scores",
+  "mostFrequentFactors": "Factores más frecuentes",
+  "temporalTrend": "Tendencia temporal",
+  "factorCorrelation": "Correlación de factores (alto riesgo)",
+  "commonCombinations": "Combinaciones más comunes en pacientes de alto riesgo",
+  "noAssessmentsToShow": "No hay evaluaciones para mostrar",
+
+  "theme": "Tema",
+  "themeLight": "Claro",
+  "themeDark": "Oscuro",
+  "themeSystem": "Sistema",
+  "selectTheme": "Seleccionar tema",
+  "appearance": "Apariencia",
+  "information": "Información",
+  "accessibility": "Accesibilidad",
+  "fontSize": "Tamaño de fuente",
+  "fontSmall": "Pequeño",
+  "fontMedium": "Mediano",
+  "fontLarge": "Grande",
+  "highContrast": "Alto contraste",
+  "highContrastSubtitle": "Mayor contraste para uso con poca luz",
+  "language": "Idioma",
+  "spanish": "Español",
+  "english": "Inglés",
+
+  "aboutTheScale": "Acerca de la escala",
+  "scaleDescription": "Escala predictiva de Trastorno Neurocognitivo Leve debido a la Enfermedad de Alzheimer. Herramienta clínica para evaluar el riesgo de deterioro neurocognitivo en pacientes a través de 9 factores de riesgo binarios.",
+  "scaleParameters": "Parámetros de la escala",
+  "range": "Rango",
+  "cutoffPoint": "Punto de corte",
+  "categories": "Categorías",
+  "factors": "Factores",
+  "weightsPerFactor": "Pesos por factor",
+  "points": "puntos",
+  "formulaAuthor": "Autor de la escala",
+  "clinicalUseOnly": "Solo para uso clínico",
+  "authorName": "Dr. Julio Antonio Esquivel Tamayo",
+  "coAuthor": "Co-autor: Arquímedes Montoya Pedrón",
+  "authorContact": "Contacto para asesoría",
+
+  "scientificEvidence": "Evidencia científica",
+  "validationMetrics": "Métricas de rendimiento",
+  "sensitivity": "Sensibilidad",
+  "specificity": "Especificidad",
+  "ppv": "VPP",
+  "npv": "VPN",
+  "youdenIndex": "Índice de Youden",
+  "positiveLR": "Razón de verosimilitud (+)",
+  "negativeLR": "Razón de verosimilitud (-)",
+  "aucRoc": "ABCCOR",
+  "aucRocCI": "IC ABCCOR",
+  "scientificReferences": "Referencias científicas",
+  "citation1": "Esquivel Tamayo JA, Montoya Pedrón A. Predictive model of mild neurocognitive disorder due to Alzheimer's disease in Cuban adults. Revista Mexicana de Neurociencias. 2025; 26(5).",
+  "citation2": "Esquivel Tamayo JA, Montoya Pedrón A. Validación interna de una escala predictiva de trastorno neurocognitivo leve debido a la enfermedad de Alzheimer. Archivos de Neurociencias. 2026.",
+  "viewArticle": "Ver artículo",
+
+  "developedBy": "Desarrollado por",
+  "developerName": "Javier Forte",
+  "developer": "Desarrollador",
+
+  "onboardingDescription": "Escala predictiva de Trastorno Neurocognitivo Leve debido a la Enfermedad de Alzheimer, basada en 9 factores de riesgo.",
+  "scoreRange": "Rango de score",
+  "classification": "Clasificación",
+  "twoCategories": "2 categorías (Bajo / Alto riesgo)",
+  "evaluatedFactors": "Factores evaluados:",
+  "startButton": "Comenzar",
+
+  "pdfFooter": "Generado por ERN — Esquivel Tamayo JA, Montoya Pedrón A. Rev Mex Neurociencias 2025;26(5) — Solo para uso clínico",
+
+  "clinicalDefinition": "Definición clínica",
+  "defLowCompetence": "Ocupaciones clasificadas en los niveles 1 y 2 según la Clasificación Internacional Uniforme de Ocupaciones (CIUO-08). Incluye trabajos de labor manual y operaciones básicas.",
+  "defHypertension": "Cifras de presión arterial superiores a 140/90 mmHg registradas en al menos 2 ocasiones con un intervalo mínimo de 6 horas entre las mediciones.",
+  "defCovid": "Diagnóstico confirmado de COVID-19 mediante prueba biomolecular (PCR en tiempo real).",
+  "defLowEducation": "Niveles de escolaridad de primaria y secundaria según el sistema educativo cubano.",
+  "defObesity": "Índice de masa corporal (IMC) superior a 30 kg/m².",
+  "defDiabetes": "Diagnóstico según los criterios: glucemia en ayunas ≥126 mg/dL (7.0 mmol/L), glucemia a las 2 horas de una prueba de tolerancia oral a la glucosa ≥200 mg/dL (11.1 mmol/L), hemoglobina glucosilada (HbA1c) ≥6.5%, o glucemia al azar ≥200 mg/dL (11.1 mmol/L) con síntomas clásicos de hiperglucemia.",
+  "defWeightLoss": "Pérdida de peso no intencional de al menos 2 kg o del 5% del peso corporal en los últimos 12 meses, no atribuible a dieta, cirugía o enfermedad conocida.",
+  "defInactivity": "En personas entre 18 y 64 años, es cuando no se alcanza el mínimo de 150 minutos/semana de actividad física moderada (caminatas, actividades domésticas, juegos con movimientos, cargar pesos ligeros), 75 minutos/semana de actividad física vigorosa (ciclismo, natación, carreras, deportes, cargas pesadas, bailes) o una combinación equivalente de ambas.",
+  "defSmoking": "Cumple con los tres criterios del DSM-5 para un trastorno por consumo de tabaco: A) consumo de cantidades mayores que las previstas por un período de tiempo más largo, B) tolerancia a la nicotina (indicada por dosis cada vez mayores), C) síntomas de abstinencia al suspender el uso.",
+
+  "specificRecommendations": "Recomendaciones específicas",
+  "recHypertension": "Mantener la presión arterial sistólica en valores ≤130 mmHg desde los 40 años de edad.",
+  "recLowCompetence": "Promover la participación en actividades cognitivamente estimulantes y de mayor complejidad ocupacional.",
+  "recLowEducation": "Facilitar el acceso a programas educativos y actividades de estimulación cognitiva.",
+  "recCovid": "Realizar seguimiento neurológico periódico en pacientes con antecedente de COVID-19.",
+  "recObesity": "Mantener un peso corporal saludable y tratar la obesidad de forma precoz.",
+  "recDiabetes": "Prevenir y tratar la diabetes mellitus, mantener un peso saludable y realizar actividad física regular.",
+  "recWeightLoss": "Monitorear el estado nutricional y descartar causas subyacentes de pérdida de peso no intencional.",
+  "recInactivity": "Incorporar ejercicio físico regular, idealmente actividad aeróbica moderada al menos 150 minutos por semana.",
+  "recSmoking": "Reducir el consumo de tabaco y participar en programas de consejería para la cesación tabáquica.",
+
+  "filtersActive": "Filtros (activos)",
+  "selectAssessmentsCount": "Selecciona 2 evaluaciones ({count}/2)",
+  "@selectAssessmentsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "clearAllFilters": "Limpiar filtros",
+  "assessmentFromDate": "Evaluación del {date}",
+  "@assessmentFromDate": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "versionEditedDate": "Versión {version} — editada el {date}",
+  "@versionEditedDate": {
+    "placeholders": {
+      "version": {"type": "int"},
+      "date": {"type": "String"}
+    }
+  },
+  "versionLabel": "Versión {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {"type": "int"}
+    }
+  },
+  "editedDate": "Editada: {date}",
+  "@editedDate": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "factorChangeToActive": "{factor}: No → Sí",
+  "@factorChangeToActive": {
+    "placeholders": {
+      "factor": {"type": "String"}
+    }
+  },
+  "factorChangeToInactive": "{factor}: Sí → No",
+  "@factorChangeToInactive": {
+    "placeholders": {
+      "factor": {"type": "String"}
+    }
+  },
+  "notesContent": "Notas: {content}",
+  "@notesContent": {
+    "placeholders": {
+      "content": {"type": "String"}
+    }
+  },
+  "evaluationsCount": "{count} evaluaciones",
+  "@evaluationsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "clinicalRecommendation": "Recomendación clínica",
+  "aggregateStatistics": "Estadísticas Agregadas",
+  "generatedDate": "Generado: {date}",
+  "@generatedDate": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "generalSummary": "Resumen general",
+  "totalPatientsLabel": "Total de pacientes",
+  "totalAssessmentsLabel": "Total de evaluaciones",
+  "averageScore": "Score promedio",
+  "factorFrequency": "Frecuencia de factores de riesgo",
+  "amount": "Cantidad",
+  "present": "Presente",
+  "factor": "Factor",
+  "nameLabel": "Nombre",
+  "codeLabel": "Código",
+  "assessmentDateLabel": "Fecha de evaluación: {date}",
+  "@assessmentDateLabel": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "versionInParens": "(Versión {version})",
+  "@versionInParens": {
+    "placeholders": {
+      "version": {"type": "int"}
+    }
+  },
+  "scoreTotalDisplay": "Score total: {score} / {max}",
+  "@scoreTotalDisplay": {
+    "placeholders": {
+      "score": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "assessmentDateHeader": "Fecha Evaluación",
+  "totalScoreHeader": "Score Total",
+  "csvExportSubject": "Exportación de evaluaciones - {appName}",
+  "@csvExportSubject": {
+    "placeholders": {
+      "appName": {"type": "String"}
+    }
+  },
+  "reevaluationPending": "Reevaluación pendiente",
+  "reevaluationScheduled": "El paciente {name} tiene una reevaluación programada",
+  "@reevaluationScheduled": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  }
+}

@@ -1,0 +1,57 @@
+name: neurocognitive_risk
+description: "Escala de Riesgo Neurocognitivo - App clínica para evaluación de riesgo de deterioro neurocognitivo"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Estado
+  flutter_riverpod: ^2.6.1
+
+  # Base de datos
+  sqflite_sqlcipher: ^3.1.0+1
+  sqflite_common_ffi: ^2.3.4+4
+  path: ^1.9.0
+
+  # PDF
+  pdf: ^3.11.2
+  printing: ^5.13.5
+
+  # Graficos
+  fl_chart: ^0.70.2
+
+  # Exportacion
+  csv: ^6.0.0
+
+  # Notificaciones
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+
+  # Utilidades
+  intl: ^0.19.0
+  share_plus: ^10.1.4
+  path_provider: ^2.1.5
+  url_launcher: ^6.3.1
+  shared_preferences: ^2.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  mocktail: ^1.0.4
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/images/

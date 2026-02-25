@@ -1,0 +1,361 @@
+{
+  "@@locale": "en",
+  "appName": "Neurocognitive Risk Scale",
+  "scaleFormalName": "Predictive Scale for Mild Neurocognitive Disorder due to Alzheimer's Disease",
+  "dashboard": "Summary",
+  "patients": "Patients",
+  "analytics": "Analytics",
+  "reminders": "Reminders",
+  "exportData": "Export data",
+  "settings": "Settings",
+  "about": "About",
+  "newAssessment": "New assessment",
+  "editAssessment": "Edit assessment",
+  "saveAssessment": "Save assessment",
+  "saveChanges": "Save changes",
+  "result": "Result",
+  "history": "History",
+  "search": "Search",
+  "filters": "Filters",
+  "clearFilters": "Clear",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "close": "Close",
+  "error": "Error",
+  "loading": "Loading...",
+
+  "totalPatients": "Patients",
+  "totalAssessments": "Assessments",
+  "highRisk": "High risk",
+  "lowRisk": "Low risk",
+  "score": "Score",
+  "category": "Category",
+  "version": "Version",
+  "average": "Average",
+
+  "quickAccess": "Quick access",
+  "patientsSubtitle": "View, search or register patients",
+  "analyticsSubtitle": "Distribution, trends and correlations",
+  "remindersSubtitle": "Pending and overdue reevaluations",
+  "exportSubtitle": "CSV and PDF with filters for research",
+  "aboutSubtitle": "Scale, scientific evidence and credits",
+
+  "patientCode": "Patient code",
+  "patientName": "Name / Initials",
+  "age": "Age",
+  "sex": "Sex",
+  "male": "Male",
+  "female": "Female",
+  "birthDate": "Date of birth",
+  "medicalRecord": "Medical record",
+  "notes": "Notes",
+  "clinicalNotes": "Clinical notes",
+  "required": "Required",
+  "invalidAge": "Invalid age",
+  "newPatient": "New patient",
+  "editPatient": "Edit patient",
+  "registerPatient": "Register patient",
+  "patientUpdated": "Patient updated",
+  "patientRegistered": "Patient registered",
+  "noPatients": "No patients registered",
+  "noResults": "No results",
+  "searchHint": "Search by code, name or record...",
+
+  "patientData": "Patient data",
+  "assessments": "Assessments",
+  "noAssessments": "No assessments yet",
+
+  "hypertension": "Arterial hypertension",
+  "lowCompetence": "Low competence level",
+  "lowEducation": "Low education level",
+  "covid": "COVID-19",
+  "obesity": "Obesity",
+  "diabetes": "Diabetes mellitus",
+  "weightLoss": "Weight loss",
+  "inactivity": "Physical inactivity",
+  "smoking": "Smoking",
+  "pts": "pts",
+  "yes": "Yes",
+  "no": "No",
+
+  "riskFactors": "Risk factors",
+  "recommendation": "Recommendation",
+  "highRiskRecommendation": "Patient classified as HIGH RISK for neurocognitive decline.\nRecommendations:\n\n\u2022 Formal neuropsychological evaluation\n\u2022 Strict cardiovascular risk factor control\n\u2022 Lifestyle intervention\n\u2022 Periodic follow-up",
+  "lowRiskRecommendation": "Patient classified as LOW RISK.\nRecommendations:\n\n\u2022 Maintain healthy habits\n\u2022 Periodic reevaluation",
+
+  "pdf": "PDF",
+  "share": "Share",
+  "edit": "Edit",
+  "pdfAvailableSoon": "PDF available in next version",
+
+  "assessmentDetail": "Assessment detail",
+  "versionHistory": "Version history",
+  "currentVersion": "current",
+  "previousVersions": "Previous versions",
+  "changesVsCurrent": "Changes vs current version:",
+  "factorsInVersion": "Factors in this version:",
+  "noVersions": "No previous versions",
+
+  "compare": "Compare",
+  "comparison": "Comparison",
+  "compareEvaluations": "Compare evaluations",
+  "selectTwoAssessments": "Select 2 evaluations",
+  "previous": "Previous",
+  "recent": "Recent",
+  "factorComparison": "Factor comparison",
+  "summary": "Summary",
+  "previousAssessment": "Previous assessment",
+  "recentAssessment": "Recent assessment",
+  "scoreDifference": "Score difference",
+  "categoryChange": "Category change",
+  "noChange": "No change",
+  "modifiedFactors": "Modified factors",
+
+  "evolutionChart": "Score evolution",
+  "cutoff": "Cutoff",
+  "date": "Date",
+  "datePrefix": "Date: {date}",
+  "@datePrefix": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+
+  "riskCategory": "Risk category",
+  "all": "All",
+  "dateRange": "Date range",
+  "from": "From",
+  "to": "To",
+  "activeFactors": "Active factors",
+  "noResultsWithFilters": "No results with applied filters",
+
+  "pending": "Pending",
+  "overdue": "Overdue",
+  "noPendingReminders": "No pending reminders",
+  "noOverdueReminders": "No overdue reminders",
+  "reminderCompleted": "Reminder completed",
+  "markCompleted": "Mark completed",
+  "scheduledFor": "Scheduled",
+  "overdueDays": "Overdue by {days} days",
+  "@overdueDays": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "inDays": "In {days} days ({months} months)",
+  "@inDays": {
+    "placeholders": {
+      "days": {"type": "int"},
+      "months": {"type": "int"}
+    }
+  },
+
+  "exportFilters": "Export filters",
+  "exportFormat": "Export format",
+  "exportCsv": "Export CSV",
+  "csvSubtitle": "Comma-separated text file",
+  "statisticsPdf": "Statistics PDF",
+  "statisticsPdfSubtitle": "Aggregate report with distribution and frequencies",
+  "clearDates": "Clear dates",
+
+  "scoreDistribution": "Score distribution",
+  "mostFrequentFactors": "Most frequent factors",
+  "temporalTrend": "Temporal trend",
+  "factorCorrelation": "Factor correlation (high risk)",
+  "commonCombinations": "Most common combinations in high risk patients",
+  "noAssessmentsToShow": "No assessments to show",
+
+  "theme": "Theme",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "themeSystem": "System",
+  "selectTheme": "Select theme",
+  "appearance": "Appearance",
+  "information": "Information",
+  "accessibility": "Accessibility",
+  "fontSize": "Font size",
+  "fontSmall": "Small",
+  "fontMedium": "Medium",
+  "fontLarge": "Large",
+  "highContrast": "High contrast",
+  "highContrastSubtitle": "Higher contrast for low light use",
+  "language": "Language",
+  "spanish": "Spanish",
+  "english": "English",
+
+  "aboutTheScale": "About the scale",
+  "scaleDescription": "Predictive Scale for Mild Neurocognitive Disorder due to Alzheimer's Disease. A clinical tool designed to assess the risk of neurocognitive decline in patients through 9 binary risk factors.",
+  "scaleParameters": "Scale parameters",
+  "range": "Range",
+  "cutoffPoint": "Cutoff point",
+  "categories": "Categories",
+  "factors": "Factors",
+  "weightsPerFactor": "Weights per factor",
+  "points": "points",
+  "formulaAuthor": "Scale author",
+  "clinicalUseOnly": "For clinical use only",
+  "authorName": "Dr. Julio Antonio Esquivel Tamayo",
+  "coAuthor": "Co-author: Arquimedes Montoya Pedron",
+  "authorContact": "Contact for advisory",
+
+  "scientificEvidence": "Scientific evidence",
+  "validationMetrics": "Performance metrics",
+  "sensitivity": "Sensitivity",
+  "specificity": "Specificity",
+  "ppv": "PPV",
+  "npv": "NPV",
+  "youdenIndex": "Youden Index",
+  "positiveLR": "Positive likelihood ratio",
+  "negativeLR": "Negative likelihood ratio",
+  "aucRoc": "AUC-ROC",
+  "aucRocCI": "AUC-ROC CI",
+  "scientificReferences": "Scientific references",
+  "citation1": "Esquivel Tamayo JA, Montoya Pedron A. Predictive model of mild neurocognitive disorder due to Alzheimer's disease in Cuban adults. Revista Mexicana de Neurociencias. 2025; 26(5).",
+  "citation2": "Esquivel Tamayo JA, Montoya Pedron A. Internal validation of a predictive scale for mild neurocognitive disorder due to Alzheimer's disease. Archivos de Neurociencias. 2026.",
+  "viewArticle": "View article",
+
+  "developedBy": "Developed by",
+  "developerName": "Javier Forte",
+  "developer": "Developer",
+
+  "onboardingDescription": "Predictive Scale for Mild Neurocognitive Disorder due to Alzheimer's Disease, based on 9 risk factors.",
+  "scoreRange": "Score range",
+  "classification": "Classification",
+  "twoCategories": "2 categories (Low / High risk)",
+  "evaluatedFactors": "Evaluated factors:",
+  "startButton": "Get started",
+
+  "pdfFooter": "Generated by NRS — Esquivel Tamayo JA, Montoya Pedron A. Rev Mex Neurociencias 2025;26(5) — For clinical use only",
+
+  "clinicalDefinition": "Clinical definition",
+  "defLowCompetence": "Occupations classified at levels 1 and 2 according to the International Standard Classification of Occupations (ISCO-08). Includes manual labor and basic operations.",
+  "defHypertension": "Blood pressure readings above 140/90 mmHg recorded on at least 2 occasions with a minimum interval of 6 hours between measurements.",
+  "defCovid": "Confirmed COVID-19 diagnosis by biomolecular test (real-time PCR).",
+  "defLowEducation": "Primary and secondary education levels according to the Cuban educational system.",
+  "defObesity": "Body mass index (BMI) greater than 30 kg/m².",
+  "defDiabetes": "Diagnosis based on the criteria: fasting blood glucose ≥126 mg/dL (7.0 mmol/L), 2-hour oral glucose tolerance test ≥200 mg/dL (11.1 mmol/L), glycated hemoglobin (HbA1c) ≥6.5%, or random blood glucose ≥200 mg/dL (11.1 mmol/L) with classic symptoms of hyperglycemia.",
+  "defWeightLoss": "Unintentional weight loss of at least 2 kg or 5% of body weight in the last 12 months, not attributable to diet, surgery, or known disease.",
+  "defInactivity": "In people aged 18 to 64, it is when the minimum of 150 minutes/week of moderate physical activity (walking, household activities, active games, carrying light weights), 75 minutes/week of vigorous physical activity (cycling, swimming, running, sports, heavy loads, dancing) or an equivalent combination of both is not reached.",
+  "defSmoking": "Meets the three DSM-5 criteria for tobacco use disorder: A) consumption of larger amounts than intended over a longer period of time, B) nicotine tolerance (indicated by increasingly larger doses), C) withdrawal symptoms upon discontinuation of use.",
+
+  "specificRecommendations": "Specific recommendations",
+  "recHypertension": "Maintain systolic blood pressure at values ≤130 mmHg from age 40 onwards.",
+  "recLowCompetence": "Promote participation in cognitively stimulating activities and higher occupational complexity.",
+  "recLowEducation": "Facilitate access to educational programs and cognitive stimulation activities.",
+  "recCovid": "Perform periodic neurological follow-up in patients with a history of COVID-19.",
+  "recObesity": "Maintain a healthy body weight and treat obesity early.",
+  "recDiabetes": "Prevent and treat diabetes mellitus, maintain a healthy weight, and engage in regular physical activity.",
+  "recWeightLoss": "Monitor nutritional status and rule out underlying causes of unintentional weight loss.",
+  "recInactivity": "Incorporate regular physical exercise, ideally at least 150 minutes of moderate aerobic activity per week.",
+  "recSmoking": "Reduce tobacco use and participate in smoking cessation counseling programs.",
+
+  "filtersActive": "Filters (active)",
+  "selectAssessmentsCount": "Select 2 assessments ({count}/2)",
+  "@selectAssessmentsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "clearAllFilters": "Clear filters",
+  "assessmentFromDate": "Assessment from {date}",
+  "@assessmentFromDate": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "versionEditedDate": "Version {version} — edited on {date}",
+  "@versionEditedDate": {
+    "placeholders": {
+      "version": {"type": "int"},
+      "date": {"type": "String"}
+    }
+  },
+  "versionLabel": "Version {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {"type": "int"}
+    }
+  },
+  "editedDate": "Edited: {date}",
+  "@editedDate": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "factorChangeToActive": "{factor}: No → Yes",
+  "@factorChangeToActive": {
+    "placeholders": {
+      "factor": {"type": "String"}
+    }
+  },
+  "factorChangeToInactive": "{factor}: Yes → No",
+  "@factorChangeToInactive": {
+    "placeholders": {
+      "factor": {"type": "String"}
+    }
+  },
+  "notesContent": "Notes: {content}",
+  "@notesContent": {
+    "placeholders": {
+      "content": {"type": "String"}
+    }
+  },
+  "evaluationsCount": "{count} assessments",
+  "@evaluationsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "clinicalRecommendation": "Clinical recommendation",
+  "aggregateStatistics": "Aggregate Statistics",
+  "generatedDate": "Generated: {date}",
+  "@generatedDate": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "generalSummary": "General summary",
+  "totalPatientsLabel": "Total patients",
+  "totalAssessmentsLabel": "Total assessments",
+  "averageScore": "Average score",
+  "factorFrequency": "Risk factor frequency",
+  "amount": "Amount",
+  "present": "Present",
+  "factor": "Factor",
+  "nameLabel": "Name",
+  "codeLabel": "Code",
+  "assessmentDateLabel": "Assessment date: {date}",
+  "@assessmentDateLabel": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "versionInParens": "(Version {version})",
+  "@versionInParens": {
+    "placeholders": {
+      "version": {"type": "int"}
+    }
+  },
+  "scoreTotalDisplay": "Total score: {score} / {max}",
+  "@scoreTotalDisplay": {
+    "placeholders": {
+      "score": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "assessmentDateHeader": "Assessment Date",
+  "totalScoreHeader": "Total Score",
+  "csvExportSubject": "Assessment export - {appName}",
+  "@csvExportSubject": {
+    "placeholders": {
+      "appName": {"type": "String"}
+    }
+  },
+  "reevaluationPending": "Pending reevaluation",
+  "reevaluationScheduled": "Patient {name} has a scheduled reevaluation",
+  "@reevaluationScheduled": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  }
+}
